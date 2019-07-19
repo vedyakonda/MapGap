@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MapGap</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/map.css">
+    
+    <!-- import the webpage's javascript file -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand|Source+Serif+Pro&display=swap" rel="stylesheet">
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head> 
+
+  <body>
+   
+   <div class = "fullpage">
+     
+      <div class = "menubar">   
+        <div class = "title">  <h1> MapGap </h1> </div>
+        <div id="home"> <button onclick="window.location.href = 'index.html';"> <h2> Home </h2> </button></div>
+        <div id = "worldMap"> <button  onclick="window.location.href = 'map.html';"> <center> <h2> World Map </h2> </center> </button> </div>
+        <div id = "photoGallery"> <a href="photogallery.html"><button> <center> <h2> Photo Gallery </h2> </center> </button></a> </div>
+        <div id = "aboutUs"> <button onclick="window.location.href = 'aboutus.html';"> <center> <h2> About Us </h2> </center> </button> </div> 
+     </div> 
+    
+  
+    
+<!--       <button type="home" id="home"><b>Home</b></button>
+      <button type="worldMap" id="worldMap"><b>Fast</b></button>
+     -->
+     
+     
+    <br><br><br><br><br><br><br><br>
+    <div class = "container"> 
+      <button class="itBtn"> <img class= "orb" id = "italy" src= "https://cdn.glitch.com/f171d121-b09b-438b-b73d-b81b038a3f37%2F169-1696857_effect-light-ball-transparent-magic-effects-png.png?v=1563396934067"></button>
+         <div class="popup" onclick="myFunction()">
+           <span class="popuptext" id="myPopup"><a href="italy.html"><img class="hot" src="https://cdn.glitch.com/10c38551-3af0-40bd-bbd4-f43217495443%2F1.png?v=1563558686294"></a> </span> 
+     </div> 
+      <button class="itBtn2"> <img class= "orb2" id = "mexico" src= "https://cdn.glitch.com/f171d121-b09b-438b-b73d-b81b038a3f37%2F169-1696857_effect-light-ball-transparent-magic-effects-png.png?v=1563396934067"></button>
+       <div class="popup2" onclick="myFunction2()">
+         <span class="popuptext2" id="myPopup2"><a href ="sudan.html"><img class="hot" src="https://cdn.glitch.com/10c38551-3af0-40bd-bbd4-f43217495443%2F4.png?v=1563558687759"></a> </span> 
+     </div> 
+    </div>
+     
+     <h3 class="textbottom"> <center> 
+       When you click the orb located on a country, a meter will pop up, showing you what the political climate of that country is. If you double click, it will take you to an informational page including news articles about that country, etc.</center>
+     </h3>
+     
+  <br><br><br>
+    
+    
+     
+     
+   </div>
+    <script src="map.js"> </script>
+  </body>
+  
+  
+</html>
